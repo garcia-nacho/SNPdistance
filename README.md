@@ -10,6 +10,7 @@ You just need a mininum of three bacterial NGS samples (fastq files) and run the
 <code>docker run -it --rm -v $(pwd):/Data -e inputfolder=fastq -e agent=SPNE ghcr.io/garcia-nacho/snpdistance</code>     
    
 Where <code>inputfolder</code> points to the folder where the subfolders containing the samples are and <code>agent</code> is the bacterial specie that you want to compare.     
+   
 For the momment there are four avaiblabe bacterial species:     
    
 *Streptococcus pneumoniae* <code>-e agent=SPNE</code>   

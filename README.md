@@ -7,7 +7,8 @@ SNPs are critical markers used in various fields including evolutionary biology,
 SNP distance finder is a docker based tool. 
 You just need a mininum of three bacterial NGS samples (fastq files) and run the following command:
    
-<code>docker run -it --rm -v $(pwd):/Data -e inputfolder=fastq -e agent=SPNE ghcr.io/garcia-nacho/snpdistance</code>      
+<code>docker run -it --rm -v $(pwd):/Data -e inputfolder=fastq -e agent=SPNE ghcr.io/garcia-nacho/snpdistance</code>     
+   
 Where <code>inputfolder</code> points to the folder where the subfolders containing the samples are and <code>agent</code> is the bacterial species that you want to compare.     
 For the momment there are four avaiblabe bacterial species:     
    

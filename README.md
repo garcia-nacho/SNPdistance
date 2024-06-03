@@ -21,9 +21,9 @@ For the momment there are four avaiblabe bacterial species:
 ## Applications   
 This tool is ideal for:   
 
-Comparative genomic studies
-Tracking bacterial evolution and phylogenetics
-Investigating pathogen outbreaks and transmission patterns
+Comparative genomic studies   
+Tracking bacterial evolution and phylogenetics   
+Investigating pathogen outbreaks and transmission patterns   
 
 ## Contributions   
 We welcome contributions from the community! If you have suggestions for new features, improvements, or have found a bug, please open an issue or submit a pull request.

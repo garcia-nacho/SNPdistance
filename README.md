@@ -3,7 +3,7 @@ Welcome to the SNP Finder for Bacterial Samples repository!
 This project is dedicated to the identification and analysis of Single Nucleotide Polymorphisms (SNPs) in bacterial genomic data.    
 SNPs are critical markers used in various fields including evolutionary biology, epidemiology, and microbial genetics to understand genetic variations, track disease outbreaks, and study bacterial evolution.   
 
-# Getting Started   
+## Getting Started   
 SNP distance finder is a docker based tool. 
 You just need a mininum of three bacterial NGS samples (fastq files) and run the following command:
 
@@ -15,12 +15,12 @@ For the momment there are four avaiblabe bacterial species:
 *Mycobacterium tuberculosis* <code>-e agent=MTB</code>   
 *Haemophilus influenzae* <code>-e agent=HINF</code>
    
-# Applications   
+## Applications   
 This tool is ideal for:   
 
 Comparative genomic studies
 Tracking bacterial evolution and phylogenetics
 Investigating pathogen outbreaks and transmission patterns
 
-# Contributions   
+## Contributions   
 We welcome contributions from the community! If you have suggestions for new features, improvements, or have found a bug, please open an issue or submit a pull request.

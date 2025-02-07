@@ -8,7 +8,7 @@ library(ggplot2)
 #library(ggrepel)
 
 files<-list.files( pattern = "Snippy_superclean.core.aln")
-if(file.size(files)==0) files<- list.files( pattern = "SnippyResults.full_clean.aln")
+if(length(files)==0) files<- list.files( pattern = "SnippyResults.full_clean.aln")
 
 if(length(files)==1){
   fastas<-read.fasta(files)
